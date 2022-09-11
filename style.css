@@ -10,17 +10,22 @@ li a {
 
 }
 li a:hover{
-    background-color: #FFFF33;
+    background-color: #3e3e3e;
 }
 .active{
-    background-color: #FFFF33;
+    background-color: #3e3e3e;
 }
 nav{
-    list-style-type: none;
+    list-style-type:none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #FAF884;
+    background-color: #6f6f6a;
+}
+
+#logo{
+    width: 45px;
+    height: 45px;
 }
 
 /*------------ aside ---------------*/
@@ -39,12 +44,14 @@ aside{
 main {
     float: right;
     display: contents;
-    width: auto;
-    background-color: aliceblue;
+    width:40%;
+    background-color: rgb(88, 113, 134);
     color: rgb(0, 0, 0);
     padding: 5px;
-      margin: 10px;
-      height: 400px;
+    margin: 10px;
+    height: 400px;
+    text-align: justify;
+    
 }
 /*------------ footer ---------------*/
 footer {
@@ -52,7 +59,7 @@ footer {
     width: 100%;
     left: 0;
     bottom: 0;
-    color: maroon;
+    color: rgb(0, 0, 0);
     text-align: center;
-    background-color: green;
+    background-color: rgb(86, 86, 86);
 }
