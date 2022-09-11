@@ -1,0 +1,58 @@
+/*------------nav bar---------------*/
+li{
+    float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+
+}
+li a:hover{
+    background-color: #FFFF33;
+}
+.active{
+    background-color: #FFFF33;
+}
+nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FAF884;
+}
+
+/*------------ aside ---------------*/
+aside{
+    float: left;
+    display: block;
+    width: 25%;
+      
+      background-color: rgb(156, 156, 145);
+      color: white;
+      padding: 5px;
+      margin: 10px;
+      height: 400px;
+}
+/*------------ main ---------------*/
+main {
+    float: right;
+    display: contents;
+    width: auto;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+      margin: 10px;
+      height: 400px;
+}
+/*------------ footer ---------------*/
+footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: maroon;
+    text-align: center;
+    background-color: green;
+}
