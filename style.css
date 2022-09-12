@@ -27,30 +27,41 @@ nav{
     width: 45px;
     height: 45px;
 }
+/*------------ body ---------------*/
+body{
+    background-image: url(assets/pexels-pixabay-355747.jpg);
+}
 
 /*------------ aside ---------------*/
 aside{
     float: left;
     display: block;
-    width: 25%;
-      
-      background-color: rgb(156, 156, 145);
-      color: white;
-      padding: 5px;
-      margin: 10px;
-      height: 400px;
-}
-/*------------ main ---------------*/
-main {
-    float: right;
-    display: contents;
-    width:40%;
-    background-color: rgb(88, 113, 134);
-    color: rgb(0, 0, 0);
+    width: 25%;  
     padding: 5px;
     margin: 10px;
     height: 400px;
-    text-align: justify;
+}
+#photo_CV{
+    float: left;
+    width: 45%;
+    height: 50%;
+
+
+    
+}
+/*------------ main ---------------*/
+article {
+    float:center;
+    display:block;
+    color: rgb(0, 0, 0);
+    padding: 20px; 
+    margin-top: 200px;
+    margin-left: 340px;
+    margin-right: 70px;
+    width: auto;
+    text-align: center;
+    border: 2px solid #3e3e3e;
+    border-radius: 15px 50px 30px;
     
 }
 /*------------ footer ---------------*/
@@ -62,4 +73,18 @@ footer {
     color: rgb(0, 0, 0);
     text-align: center;
     background-color: rgb(86, 86, 86);
+}
+/*------------ form ---------------*/
+form{
+    display:block;
+    text-align: center;
+}
+
+/*------------ sound ---------------*/
+embed { 
+    display: none; 
+}
+button:active + embed { 
+    display: block;
+    
 }
